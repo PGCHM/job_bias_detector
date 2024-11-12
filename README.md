@@ -6,7 +6,7 @@
 
 **GitHub Repo:** https://github.com/PGCHM/job_bias_detector
 
-**Banner Image Provided by** https://www.vectorstock.com/royalty-free-vector/
+**Banner Image Provided by** [Vector Stock](https://www.vectorstock.com/royalty-free-vector/)
 
 The Job Bias Analyzer is an innovative AI-powered tool designed to identify and eliminate discriminatory language and implicit bias in job descriptions and hiring materials. By leveraging natural language processing and machine learning techniques, this tool actively contributes to achieving UN Sustainable Development Goal 5 (Gender Equality) by promoting equal opportunities in the workforce through inclusive job postings. This tool could help companies identify and eliminate unintentional biases in recruitment materials, promoting a more inclusive hiring process. Google’s Gemini APIs are used to detect and suggest gender-neutral language.
 
@@ -35,6 +35,10 @@ The AI-Powered Discrimination Detector for Job Listings focuses on using natural
 
 4. Feedback Loop: Gather feedback from users (HR professionals, job seekers) to improve detection accuracy and recommendations.
 
+
+Please see the workflow chart below for the modules and how they interact with each other:
+
+<img src="img/workflow.png" alt="workflow chart"/>
 
 ## Methodologies
 
@@ -553,6 +557,6 @@ The Job Bias Analyzer represents a practical, scalable solution for promoting ge
 
 **GitHub Repo:** https://github.com/PGCHM/job_bias_detector
 
-**Footnote Image Provided by** https://www.vectorstock.com/royalty-free-vector/
+**Footnote Image Provided by** [Vector Stock](https://www.vectorstock.com/royalty-free-vector/)
 
 <img src="img/yes-women-can-symbol-female-power-woman-rights-vector-24758529.jpg" alt="Yes Women Can!" style="width: 1400px; height: 400px" />
