@@ -1,0 +1,43 @@
+Job Description Bias Analysis Report
+                ================================================================================
+
+                OVERALL METRICS
+                ----------------------------------------
+                Discrimination Score: 4/10
+                Confidence Level: 70.0%
+
+                DISCRIMINATION CATEGORIES ANALYSIS
+                ----------------------------------------
+
+Age Discrimination:
+  Instances: 1
+  Average Severity: 4/5
+  Problematic Terms: fresh graduate
+
+Experience Discrimination:
+  Instances: 1
+  Average Severity: 4/5
+  Problematic Terms: fresh graduate
+
+DETAILED TERM ANALYSIS
+----------------------------------------
+
+Flagged Term: fresh graduate
+Categories: age discrimination, indirect discrimination, experience discrimination
+Context: "Looking for a fresh graduate with 2-3 years of experience."
+Severity: 4/5
+Explanation: While not explicitly discriminatory, "fresh graduate" often implies a preference for recent graduates, potentially disadvantaging older workers with more experience.  The conflicting requirement of 2-3 years of experience further highlights this issue, suggesting a narrow target demographic.
+Compounding Effects: The contradictory nature of seeking a 'fresh graduate' with significant experience exacerbates the potential for discrimination.
+Suggested Replacement: entry-level professional
+
+COMPOUNDING EFFECTS SUMMARY
+----------------------------------------
+The conflicting requirements of being a "fresh graduate" while simultaneously possessing 2-3 years of experience create ambiguity and raise concerns about potential age and experience discrimination. This confusing language likely unintentionally excludes qualified candidates.
+
+RISK ASSESSMENT
+----------------------------------------
+This job description presents a moderate legal risk due to the potential for indirect age and experience discrimination. Although "fresh graduate" is not explicitly discriminatory, its combination with the experience requirement creates a contradictory message that may deter qualified candidates from applying.
+
+IMPROVED JOB DESCRIPTION
+----------------------------------------
+Looking for an entry-level professional with 2-3 years of experience.

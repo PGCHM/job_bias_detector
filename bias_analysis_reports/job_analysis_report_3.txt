@@ -1,0 +1,64 @@
+Job Description Bias Analysis Report
+                ================================================================================
+
+                OVERALL METRICS
+                ----------------------------------------
+                Discrimination Score: 7/10
+                Confidence Level: 90.0%
+
+                DISCRIMINATION CATEGORIES ANALYSIS
+                ----------------------------------------
+
+Age Discrimination:
+  Instances: 2
+  Average Severity: 4.5/5
+  Problematic Terms: young, fresh-brained
+
+Unprofessional Language:
+  Instances: 2
+  Average Severity: 3.5/5
+  Problematic Terms: fresh-brained, sales ninja
+
+Cultural Appropriation:
+  Instances: 1
+  Average Severity: 3/5
+  Problematic Terms: sales ninja
+
+DETAILED TERM ANALYSIS
+----------------------------------------
+
+Flagged Term: young
+Categories: age discrimination, direct discrimination
+Context: "We are looking for a young, fresh-brained sales ninja to join our team."
+Severity: 5/5
+Explanation: Explicitly discriminates against older workers based on age, violating age discrimination laws.  The term "young" suggests that older applicants need not apply.
+Compounding Effects: This term's discriminatory nature is amplified when combined with "fresh-brained" and "sales ninja," creating a cumulative effect of ageism and unprofessionalism.
+Suggested Replacement: motivated
+
+Flagged Term: fresh-brained
+Categories: age discrimination, indirect discrimination, unprofessional language
+Context: "We are looking for a young, fresh-brained sales ninja to join our team."
+Severity: 4/5
+Explanation: Although not explicitly discriminatory, "fresh-brained" implies a preference for recent graduates or younger individuals, potentially disadvantaging older applicants with more experience.  Furthermore, it is unprofessional jargon.
+Compounding Effects: This term reinforces the ageist implications of "young" and adds to the overall unprofessional tone set by "sales ninja."
+Suggested Replacement: innovative
+
+Flagged Term: sales ninja
+Categories: unprofessional language, cultural appropriation
+Context: "We are looking for a young, fresh-brained sales ninja to join our team."
+Severity: 3/5
+Explanation: This term uses casual and potentially culturally insensitive language that may not resonate with all applicants. It also projects an unprofessional image of the company.
+Compounding Effects: Combined with "young" and "fresh-brained," this term contributes to a perception of the ideal candidate as someone young, inexperienced, and potentially aggressive in sales tactics.
+Suggested Replacement: skilled sales professional
+
+COMPOUNDING EFFECTS SUMMARY
+----------------------------------------
+The combination of "young," "fresh-brained," and "sales ninja" creates a trifecta of potentially discriminatory and unprofessional language.  It suggests a preference for younger applicants, potentially excluding qualified candidates based on age and contributing to a negative perception of the company culture.
+
+RISK ASSESSMENT
+----------------------------------------
+This job description presents a significant legal risk due to the explicit age discrimination ("young") and a moderate risk of deterring qualified candidates due to unprofessional language. Ethically, it promotes an exclusionary image and may discourage older, more experienced applicants from applying.
+
+IMPROVED JOB DESCRIPTION
+----------------------------------------
+We are looking for a motivated, innovative, and skilled sales professional to join our team.

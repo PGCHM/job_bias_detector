@@ -1,0 +1,59 @@
+Job Description Bias Analysis Report
+                ================================================================================
+
+                OVERALL METRICS
+                ----------------------------------------
+                Discrimination Score: 8/10
+                Confidence Level: 95.0%
+
+                DISCRIMINATION CATEGORIES ANALYSIS
+                ----------------------------------------
+
+Age Discrimination:
+  Instances: 2
+  Average Severity: 4.5/5
+  Problematic Terms: young, energetic
+
+Work Life Balance:
+  Instances: 1
+  Average Severity: 3/5
+  Problematic Terms: long hours
+
+DETAILED TERM ANALYSIS
+----------------------------------------
+
+Flagged Term: young
+Categories: age discrimination, direct discrimination
+Context: "We need a young, energetic salesperson who can work long hours!"
+Severity: 5/5
+Explanation: Directly discriminates against older workers and violates age discrimination laws. Using "young" as a qualifier unfairly limits the applicant pool.
+Compounding Effects: Combined with "energetic" and "long hours," this term reinforces age bias.
+Suggested Replacement: motivated
+
+Flagged Term: energetic
+Categories: age discrimination, indirect discrimination
+Context: "We need a young, energetic salesperson who can work long hours!"
+Severity: 4/5
+Explanation: Often used as coded language for age discrimination, potentially discouraging older applicants.
+Compounding Effects: Reinforces the age bias created by "young" and "long hours."
+Suggested Replacement: enthusiastic
+
+Flagged Term: long hours
+Categories: work-life balance, indirect discrimination
+Context: "We need a young, energetic salesperson who can work long hours!"
+Severity: 3/5
+Explanation: May discriminate against caregivers and promote unhealthy work-life balance.
+Compounding Effects: Exacerbates the discriminatory implications of "young" and "energetic."
+Suggested Replacement: flexible schedule based on project needs
+
+COMPOUNDING EFFECTS SUMMARY
+----------------------------------------
+The combination of "young," "energetic," and "long hours" creates a strong bias towards younger applicants and against older workers or those with caregiving responsibilities, potentially violating age discrimination laws and promoting unhealthy work practices.
+
+RISK ASSESSMENT
+----------------------------------------
+This job description poses a high legal risk due to explicit age discrimination ("young") and the potential for claims of indirect discrimination based on age and family status ("energetic" and "long hours"). It also presents ethical concerns regarding inclusivity and fair hiring practices.
+
+IMPROVED JOB DESCRIPTION
+----------------------------------------
+We need a motivated and enthusiastic salesperson who can work a flexible schedule based on project needs.

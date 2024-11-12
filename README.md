@@ -177,6 +177,21 @@ genai.configure(api_key='YOUR_API_KEY')
 ```
 
 
+Alternatively, use the `OAuth 2.0 Client IDs` stored in the `client_secret.json`, and call `load_creds` to generate a valid token when a `token.json` not exists or expires.
+```
+if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(
+                client_secret, SCOPES)
+            creds = flow.run_local_server(port=0)
+        # Save the credentials for the next run
+        with open(token_json, 'w') as token:
+            token.write(creds.to_json())
+```
+
+
 ### Step 1: Set up the disctionary of biased terms 
 
 Example list of biased words/phrases and their inclusive alternatives
@@ -350,6 +365,7 @@ The script `job_bias_detector_args.py` is to accept job descriptions from comman
  - Added helpful usage examples in the help text
 
 #### 3.1. Analyze single job description
+The command below not only generates analysis in the standard output console, but also in the analysis report logs, by default, `bias_analysis_reports/job_analysis_report_[i].txt` file.
 ```
 !python job_bias_detector_args.py "We need a young, energetic salesperson who can work long hours!"
 ```
@@ -443,6 +459,7 @@ We need a motivated and enthusiastic salesperson with a flexible schedule based 
 
 
 #### 3.4. Specify custom output directory
+The command below not only generates analysis in the standard output console, but also in the analysis report logs, into the customized folder, in this case, `custom_reports/job_analysis_report_[i].txt` file.
 ```
 !python job_bias_detector_args.py -o custom_reports "Biases in Job Descriptions" "Looking for a fresh graduate with 2-3 years of experience who can crush targets and work under pressure."
 ```

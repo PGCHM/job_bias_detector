@@ -1,0 +1,25 @@
+Job Description Bias Analysis Report
+                ================================================================================
+
+                OVERALL METRICS
+                ----------------------------------------
+                Discrimination Score: 0/10
+                Confidence Level: 99.0%
+
+                DISCRIMINATION CATEGORIES ANALYSIS
+                ----------------------------------------
+
+DETAILED TERM ANALYSIS
+----------------------------------------
+
+COMPOUNDING EFFECTS SUMMARY
+----------------------------------------
+No compounding effects detected as no biased terms were found.
+
+RISK ASSESSMENT
+----------------------------------------
+This job description title, while referencing bias, doesn't itself contain any discriminatory language.  However, it highlights the importance of careful wording in job descriptions to avoid unintended bias.
+
+IMPROVED JOB DESCRIPTION
+----------------------------------------
+Biases in Job Descriptions

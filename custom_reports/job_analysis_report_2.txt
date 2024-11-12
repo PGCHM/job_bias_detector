@@ -1,0 +1,51 @@
+Job Description Bias Analysis Report
+                ================================================================================
+
+                OVERALL METRICS
+                ----------------------------------------
+                Discrimination Score: 5/10
+                Confidence Level: 85.0%
+
+                DISCRIMINATION CATEGORIES ANALYSIS
+                ----------------------------------------
+
+Age Discrimination:
+  Instances: 1
+  Average Severity: 3/5
+  Problematic Terms: fresh graduate
+
+Aggressive Language:
+  Instances: 1
+  Average Severity: 4/5
+  Problematic Terms: crush targets
+
+DETAILED TERM ANALYSIS
+----------------------------------------
+
+Flagged Term: fresh graduate
+Categories: age discrimination, indirect discrimination
+Context: "Looking for a fresh graduate with 2-3 years of experience who can crush targets and work under pressure."
+Severity: 3/5
+Explanation: While not explicitly stating an age, "fresh graduate" often implies a preference for recent graduates, which can indirectly discriminate against older applicants with more experience.
+Compounding Effects: Combined with the requirement of 2-3 years of experience, this creates a confusing and potentially contradictory requirement that may discourage applicants.
+Suggested Replacement: entry-level professional
+
+Flagged Term: crush targets
+Categories: aggressive language, toxic culture
+Context: "Looking for a fresh graduate with 2-3 years of experience who can crush targets and work under pressure."
+Severity: 4/5
+Explanation: Promotes aggressive behavior and may indicate a toxic work environment.
+Compounding Effects: The combination of "crush targets" and "work under pressure" paints a picture of a high-pressure, potentially stressful work environment.
+Suggested Replacement: achieve sales goals
+
+COMPOUNDING EFFECTS SUMMARY
+----------------------------------------
+The combination of "fresh graduate" with "crush targets" and "work under pressure" suggests a potentially demanding and aggressive work environment that may be particularly unappealing to older or more experienced candidates.
+
+RISK ASSESSMENT
+----------------------------------------
+This job description presents a moderate legal risk due to the potential for indirect age discrimination.  It also raises ethical concerns regarding the promotion of a potentially aggressive and high-pressure work environment.
+
+IMPROVED JOB DESCRIPTION
+----------------------------------------
+Looking for an entry-level professional with 2-3 years of experience who can achieve sales goals and perform effectively in a dynamic environment.
